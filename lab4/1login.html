@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+    <div class="login-section">
+        <h1>Войти</h1>
+        <img src="images/1login/person.png" alt="">
+
+        <form action="/lab4/2home.html" method="GET">
+
+            <div class="email-group">
+                <label for="email">Электропочта</label>
+                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                <p class="hint">Введите электропочту в формате *****@***.**</p>
+            </div>
+
+            <div class="password-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" required>
+                <button type="button" class="toggle-password">
+                    <img src="images/1login/eye_off.png" alt="">
+                </button>
+            </div>
+
+            <div class="button-group">
+                <button type="submit">Продолжить</button>
+            </div>
+
+        </form>
+
+        <div class="links">
+            <a href="/forgot-password">Забыли пароль?</a>
+        </div>
+
+    </div>
+</body>
+</html>
