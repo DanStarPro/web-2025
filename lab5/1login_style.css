@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Golos Ui";
+    src: url('fonts/Golos-UI_Regular.ttf');
+}
+.login-section {
+    max-height: 501px;
+    max-width: 912px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.form-group {
+    min-width: 343px;
+    max-height: 251px;
+}
+
+.email-group {
+    margin-bottom: 16px;
+}
+
+.image {
+    max-width: 462px;
+    max-height: 501px;
+}
+
+.form_labels {
+    font-family: "Golos UI";
+    display: block;
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    color: #222222;
+}
+
+.form_inputs {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: -0.15px;
+    color: #222222;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    background-color: #F2F3F5;
+    height: 44px;
+    width: 343px;
+    padding: 13px 12px;
+    outline: none;
+}
+
+
+.password_input{
+    padding-right: 12px;
+    display: inline-block;  
+    box-sizing: border-box;
+    width: 310px;
+    background-color: transparent;
+}
+
+.email_label {
+    margin: 0;
+    font-size: 13px;
+    color: #808080;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+}
+
+.eye_button {
+    width: 24px;
+    height: 44px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.eye_button_img {
+    width: 24px;
+    height: 24px;
+}
+
+.header {
+    font-family: "Golos Ui";
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 180px;
+    letter-spacing: -1.5px;
+    margin: 0;
+    color: #222222;
+}
+
+.submit_input {
+    width: 343px;
+    height: 48px;
+    font-family: "Golos Ui";
+    font-size: 16px;
+    line-height: 100%;
+    background-color: #222222;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+.submit_input:hover {
+    background-color: #444444;
+}
+
+.password_input_wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #F2F3F5;
+    border-radius: 10px;
+    height: 44px;
+    width: 343px;
+}
