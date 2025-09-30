@@ -1,0 +1,54 @@
+{
+    "users":
+    {
+        "id1": 
+        {
+            "avatar_icon": "user_profile_photo.png",
+            "name_and_surname": "Ваня Денисов",
+            "description": "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!",
+            "posts_amount": 43,
+            "imgs": 
+            {
+                "img1": "user_photo1.png",
+                "img2": "user_photo2.png",
+                "img3": "user_photo3.png",
+                "img4": "user_photo4.png",
+                "img5": "user_photo5.png",
+                "img6": "user_photo6.png",
+                "img7": "user_photo7.png",
+                "img8": "user_photo8.png",
+                "img9": "user_photo9.png"
+            }
+        },
+        "id2": 
+        {
+            "avatar_icon": "user_profile_photo.png",
+            "name_and_surname": "Лиза Дёмина",
+            "description": "Привет! Я люблю игры и книги!",
+            "posts_amount": 6,
+            "imgs": 
+            {
+                "img1": "user_photo1.png",
+                "img2": "user_photo1.png",
+                "img3": "user_photo1.png",
+                "img4": "user_photo1.png",
+                "img5": "user_photo1.png",
+                "img6": "user_photo1.png"
+            }
+        },
+        "id3": 
+        {
+            "avatar_icon": "user_profile_photo.png",
+            "name_and_surname": "Ларин Даниил",
+            "description": "Привет! Меня тут заперли, помогите)",
+            "posts_amount": 3,
+            "imgs": 
+            {
+                "img1": "user_photo1.png",
+                "img2": "user_photo4.png",
+                "img3": "user_photo6.png"
+                
+            }
+        }
+    }
+}
