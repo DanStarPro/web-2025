@@ -1,0 +1,39 @@
+{
+    "users": 
+    {
+        "id1": 
+        {
+            "id": 1,
+            "name": "Ваня Денисов",
+            "avatar_icon": "avatar_photo_current_user.png",
+            "posts": 
+            {
+                "post1": 
+                {
+                    "id": 1,
+                    "text": "Так красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине...»",
+                    "img1": "post_photo_current_user.png",
+                    "likes": 203,
+                    "publication_time": 1733961600
+                }
+            }
+        },
+        "id2": 
+        {
+            "id": 2,
+            "name": "Лиза Дёмина",
+            "avatar_icon": "avatar_photo_next_user.png",
+            "posts": 
+            {
+                "post1": 
+                {
+                    "id": 2,
+                    "text": "",
+                    "img1": "post_photo_next_user.png",
+                    "likes": 0,
+                    "publication_time": 1734961600
+                }
+            }
+        }
+    }
+}

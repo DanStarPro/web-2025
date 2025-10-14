@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+    <link href="1login_style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="login-section">
+        <h1 class="header">Войти</h1>
+        <img class="image" src="images/1login/person.png" alt="">
+
+        <form class="form-group" action="2home.php" method="GET">
+
+            <div class="email-group">
+                <label for="email" class="form_labels">Электропочта</label>
+                <input class="form_inputs" id="email" type="email" name="address" placeholder="example@mail.com" required>
+                <p class="email_label">Введите электропочту в формате *****@***.**</p>
+            </div>
+
+            <div class="password-group">
+                <label for="password" class="form_labels">Пароль</label>
+                <div class="password_input_wrapper">
+                    <input class="form_inputs password_input" id="password" type="password" name="password" required>
+                    <button type="button" class="eye_button"><img class="eye_button_img" src="images/1login/eye_off.png" alt=""></button>    
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button type="submit" class="submit_input">Продолжить</button>
+            </div>
+
+        </form>
+
+        <div class="links">
+            <a href="/forgot-password">Забыли пароль?</a>
+        </div>
+
+    </div>
+</body>
+</html>
